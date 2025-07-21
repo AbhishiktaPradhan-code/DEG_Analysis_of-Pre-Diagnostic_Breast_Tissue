@@ -1,0 +1,11 @@
+sample	condition
+SRR13615479	susceptible
+SRR13615480	susceptible
+SRR13615481	susceptible
+SRR13615482	susceptible
+SRR13615483	susceptible
+SRR13615524	control
+SRR13615525	control
+SRR13615526	control
+SRR13615527	control
+SRR13615528	control
