@@ -12,7 +12,7 @@ This project analyzes RNA-seq data from 10 human samples (5 susceptible, 5 contr
 
 The RNA-seq analysis pipeline used in this project is illustrated below:
 
-![RNA-seq Workflow](RNA-seq%20Workflow%20(GSE166044%20Subset).png)
+<img src="https://github.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/blob/main/image/RNA-seq%20Workflow%20(GSE166044%20Subset).png" alt="Analysis Workflow" height="400"/>
 
 ##  1. Dataset Selection
 
@@ -130,20 +130,24 @@ The RNA-seq analysis pipeline used in this project is illustrated below:
 ##  Exploratory Data Analysis (EDA)
 
 ###  MA Plot
-![MA Plot](MA%20Plot.png)
+
+<img src="https://github.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/blob/main/results/plots/MA%20Plot.png" width="500"/>
 
 The MA plot displays the log2 fold change versus the average gene expression (mean normalized counts). Most genes are clustered around a log2FC of 0, indicating no differential expression. A subset of genes stands out with significant upregulation or downregulation (highlighted in blue), reflecting strong transcriptional changes between the susceptible and control groups.
 
 ---
 
 ###  Volcano Plot
-![Volcano Plot](volcano_plot_top30.jpeg)
+
+<img src="https://github.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/blob/main/results/plots/volcano_plot_top30.png" width="500"/>
+
 
 The volcano plot visualizes the distribution of genes based on their –log10 adjusted p-value (y-axis) and log2 fold change (x-axis). Genes that are both highly significant and strongly differentially expressed appear at the corners of the plot. The top 30 genes with the lowest adjusted p-values are highlighted, showing a balanced mix of upregulated and downregulated genes.
 
 ---
 
 ###  PCA Plot
-![PCA Plot](pca_plot_labeled.jpeg)
+
+<img src="https://github.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/blob/main/results/plots/pca_plot_labeled.png" width="500"/>
 
 Principal Component Analysis (PCA) shows a clear separation between control and susceptible samples, with PC1 explaining 79% of the total variance. Samples cluster tightly by condition, suggesting high within-group consistency and strong condition-driven transcriptomic differences. This supports the biological validity of the differential expression analysis.
