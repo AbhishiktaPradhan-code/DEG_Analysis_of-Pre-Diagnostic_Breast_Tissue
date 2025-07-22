@@ -11,12 +11,12 @@ library(DESeq2)
 #  Load Count Matrix and Metadata
 # ===================================================
 count_matrix <- read.table(
-  "Identifying Differentially Expressed Genes in Histologically Normal Breast Tissue Prior to Cancer Onset/data/counts/merged_counts_matrix.tabular",
+  "https://raw.githubusercontent.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/main/data/counts/merged_counts_matrix.tabular",
   header = TRUE, sep = "\t", row.names = 1
 )
 
 metadata <- read.table(
-  "Identifying Differentially Expressed Genes in Histologically Normal Breast Tissue Prior to Cancer Onset/data/metadata/metadata_10.txt",
+  "https://raw.githubusercontent.com/AbhishiktaPradhan-code/DEG_Analysis_of-Pre-Diagnostic_Breast_Tissue/main/data/metadata/metadata_10.txt",
   header = TRUE, sep = "\t", row.names = 1
 )
 
