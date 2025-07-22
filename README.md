@@ -2,7 +2,7 @@
 
 ##  Project Overview
 
-This study aims to identify early transcriptional changes in histologically normal breast tissues of breast cancer patients versus controls. Using RNA-seq data and differential gene expression analysis, we aim to discover potential early biomarkers for breast cancer susceptibility.
+This study aims to identify early transcriptional changes in histologically normal breast tissues of breast cancer patients versus controls. Using RNA-seq data and differential gene expression analysis.
 
 This project analyzes RNA-seq data from 10 human samples (5 susceptible, 5 control) to identify differentially expressed genes (DEGs). The analysis was conducted using a Galaxy-based RNA-seq pipeline, followed by DESeq2 analysis in R.
 
