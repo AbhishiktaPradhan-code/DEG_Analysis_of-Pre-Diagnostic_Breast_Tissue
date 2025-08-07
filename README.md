@@ -173,4 +173,25 @@ Principal Component Analysis (PCA) shows a clear separation between control and 
 |  3   | 7402    | +1.13549 | 6.02e-86   | 4,954.959| +20.076 |
 
 
+##  Biological Interpretation of Enriched Pathways
 
+I performed pathway enrichment on The DEGs using KEGG, Reactome and WikiPathways. Below are the major biological themes emerging from the top enriched terms:
+
+| Theme                            | Representative Pathways                                                                                                   |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **Ribosomal & Translational**    | Ribosome; Cytoplasmic Ribosomal Proteins (WP477)                                                                           |
+| **Metabolic Reprogramming**      | Pyruvate metabolism; Glyoxylate & dicarboxylate metabolism; Propanoate metabolism; Fatty acid biosynthesis; TCA cycle      |
+| **Immune & Inflammatory**        | FCGR activation; Classical complement activation; C4/C2 activators; IL-10 synthesis; CD22-mediated BCR regulation          |
+| **Cell Adhesion & Signaling**    | Focal adhesion (PI3K-Akt-mTOR); Cell adhesion molecules; Ras signaling; Hippo/Merlin signaling                            |
+| **Lipid & Hormonal Regulation**  | PPAR signaling; Lipolysis in adipocytes; Omega-3/6 fatty acid synthesis; Vitamin D receptor pathway                        |
+| **EMT & Metastasis**             | Epithelial–mesenchymal transition (EMT) in colorectal cancer (WP4239); related cell–cell adhesion pathways                |
+| **Cancer-Specific Signatures**   | Pleural mesothelioma (WP5087); Familial partial lipodystrophy (WP5102) — reflects shared oncogenic/metabolic mechanisms     |
+
+**Key takeaways:**  
+- **Protein synthesis** machinery is upregulated, consistent with the high proliferative demands of breast cancer cells.  
+- **Metabolic pathways** (glycolysis, TCA cycle, fatty acid synthesis) are altered, echoing the “Warburg effect” and lipid remodeling in tumors.  
+- **Immune–inflammation** signatures (complement, Fcγ receptors, B-cell signaling) point to tumor–immune interactions or immune evasion.  
+- **Oncogenic signaling** (PI3K-Akt-mTOR, Ras, Hippo) and **EMT** pathways underscore mechanisms of growth, survival, and metastasis.  
+- **Hormonal and lipid regulators** (PPAR, Vitamin D receptor) suggest subtype-specific vulnerabilities in breast cancer.
+
+> _Together, these themes highlight a coordinated rewiring of translation, metabolism, immune signaling, and cell-adhesion processes in pre-diagnostic breast tissue susceptible to cancer onset._
